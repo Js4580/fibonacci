@@ -1,0 +1,5 @@
+create table Fibonacci(
+    id int generated always as identity primary key,
+    solution bigint,
+    times bigint
+);
